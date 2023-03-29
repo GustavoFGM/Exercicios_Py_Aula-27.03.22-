@@ -28,5 +28,25 @@ while x <= 3:
         
     x = x + 1
 print("o maior numero digitado foi %5.2f, e o menor numero digitado foi %5.2f"% (maior_numero, menor_numero))
+#---------------------------------------------------------------------------------------------------------------------
+
+# Exercício 4.4
+
+salario = float(input("Salario atual: "));
+if salario > 1250.00:
+    aumento = salario * 0.1
+    salarioFinal = salario + aumento
+    
+elif salario <= 1250.00:
+    aumento = salario * 0.15
+    salarioFinal = salario + aumento
+
+
+    
+print("O salario após o aumento sera de R$%5.2f" % salarioFinal);
+# ----------------------------------------------------------------------------------------------------------------------
+
+
+    
 
 
