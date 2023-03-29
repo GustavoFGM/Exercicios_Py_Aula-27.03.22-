@@ -60,6 +60,35 @@ elif distancia > 200:
 print("o custo da sua passagem sera de R$%5.2f" % custo);
 # ---------------------------------------------------------------------------------------------
 
+#Exercício 4.8
+
+numero1 = float(input("o numero a ser utilizado: \n"));
+numero2 = float(input("o numero a ser utilizado: \n"));
+
+soma = 1
+subtraçao = 2
+divisao = 3
+multiplicaçao =4
+operaçao = int(input("qual operação você deseja realizar:\n soma(1) \n subtração(2) \n divisão(3) \n multiplicação(4) \n "));
+a = 0             
+             
+if operaçao == 1:
+    a = numero1 + numero2;
     
+elif operaçao == 2:
+    a = numero1 - numero2;
+    
+elif operaçao == 3:
+    a = numero1 / numero2;
+    
+elif operaçao == 4:
+    a = numero1 * numero2
+    
+
+print(a);
+#--------------------------------------------------------------------------------------------------------------------------------------------
+    
+    
+
 
 
