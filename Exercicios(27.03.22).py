@@ -10,3 +10,23 @@ if velocidadeAutomovel > 80:
 else:
     print("esta dentro do limite permitido");
 # -------------------------------------------------------------------------------------------------
+
+# Exercício 4.3
+maior_numero = 0
+menor_numero = 0 
+x = 1
+while x <= 3:
+    a = float(input("digite numero %d \n" %x));
+    if x == 1:
+        maior_numero = a
+        menor_numero = a
+    else:
+        if a < menor_numero:
+            menor_numero = a
+        elif a > maior_numero:
+            maior_numero = a
+        
+    x = x + 1
+print("o maior numero digitado foi %5.2f, e o menor numero digitado foi %5.2f"% (maior_numero, menor_numero))
+
+
