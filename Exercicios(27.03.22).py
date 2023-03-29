@@ -47,6 +47,19 @@ print("O salario após o aumento sera de R$%5.2f" % salarioFinal);
 # ----------------------------------------------------------------------------------------------------------------------
 
 
+# Exercíío 4.6
+
+distancia = float(input("qual a distância a ser percorrida em km: \n"));
+
+if distancia <= 200:
+    custo = distancia * 0.50
+    
+elif distancia > 200:
+    custo = distancia * 0.50
+
+print("o custo da sua passagem sera de R$%5.2f" % custo);
+# ---------------------------------------------------------------------------------------------
+
     
 
 
