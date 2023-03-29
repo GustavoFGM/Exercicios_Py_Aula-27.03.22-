@@ -88,7 +88,23 @@ elif operaçao == 4:
 print(a);
 #--------------------------------------------------------------------------------------------------------------------------------------------
     
+# Exercício 4.9
+
+salario1 = float(input("Salario cliente: "));
+valorCasa = float(input("Valor da casa a ser comprada: "));
+prestaçoes = int(input("numero de prestações a serem cobradas: "));
+
+parcela = valorCasa / prestaçoes
+parcelaMaxima = salario1 * 0.3
+
+if parcela > parcelaMaxima:
+    print("o emprestimo nao pode ser realizado!");
     
+elif parcela < parcelaMaxima:
+    print("o emprestimo pode ser realizado");
+# ---------------------------------------------------------------------------------------------------------------------------------------
+
+
 
 
 
